@@ -1,0 +1,28 @@
+.navbar-container {
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+.navbar-link {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-item {
+    padding: 20px;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+
+.navbar-item:hover {
+    background-color: white;
+    color: black;
+    padding: 20px 50px;
+}
+
